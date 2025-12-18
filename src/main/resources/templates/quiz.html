@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Quiz</title>
+</head>
+<body>
+
+<h1 th:text="${quiz.title}"></h1>
+
+<form>
+    <div th:each="question : ${quiz.questions}">
+        <p th:text="${question.text}"></p>
+        <input type="text"/>
+    </div>
+</form>
+
+</body>
+</html>
