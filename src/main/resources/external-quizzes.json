@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Concurrency Quiz",
+    "questions": [
+      { "text": "What is concurrency in Java?" },
+      { "text": "What is a thread?" }
+    ]
+  },
+  {
+    "title": "Spring Quiz",
+    "questions": [
+      { "text": "What is Spring Boot?" },
+      { "text": "What is dependency injection?" }
+    ]
+  }
+]
